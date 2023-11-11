@@ -17,6 +17,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Owl_Test.unity
     guid: 5a89ebf6a2a264c299a82416b32f2f26
+  - enabled: 1
+    path: Assets/Samples/Scenes/Offline/Basic_Offline.unity
+    guid: f3b1e08745366134e85f0bd32007deed
+  - enabled: 1
+    path: Assets/Samples/Scenes/Online/Basic_Online_Demo.unity
+    guid: d8859e604d2f01741b37071d29203b12
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9539b53082b62624ea8321f8906af699, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2840e0cf747c544efb28a981250d9c9f, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5cc35ace5c153451ca3bcfe9e9e173b4, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: fd21874d014f5c34b87c2ea3d5a89501, type: 2}
