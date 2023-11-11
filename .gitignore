@@ -1,0 +1,5 @@
+# Ignore Unity-specific directories
+Library/
+Logs/
+Temp/
+UserSettings/
