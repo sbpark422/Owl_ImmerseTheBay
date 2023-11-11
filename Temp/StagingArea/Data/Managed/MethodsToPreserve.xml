@@ -1,0 +1,167 @@
+<linker>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit" ignoreIfMissing="1">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Inputs.XRTransformStabilizer">
+			<method name="set_aimTarget"/>
+			<method name="set_aimTarget"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit.Samples.Hands" ignoreIfMissing="1">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.Hands.ToggleGameObject">
+			<method name="ToggleActiveState"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.XR.Interaction.Toolkit.Samples.StarterAssets" ignoreIfMissing="1">
+		<type fullname="UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.IncrementUIText">
+			<method name="IncrementText"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+			<method name="set_pitch"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+		<type fullname="UnityEngine.Renderer">
+			<method name="set_material"/>
+			<method name="set_material"/>
+			<method name="set_material"/>
+			<method name="set_material"/>
+			<method name="set_material"/>
+			<method name="set_material"/>
+			<method name="set_material"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.ParticleSystemModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.ParticleSystem">
+			<method name="Play"/>
+			<method name="Stop"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Text">
+			<method name="set_text"/>
+			<method name="set_text"/>
+			<method name="set_text"/>
+		</type>
+		<type fullname="UnityEngine.UI.Toggle">
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+			<method name="set_isOn"/>
+		</type>
+	</assembly>
+</linker>

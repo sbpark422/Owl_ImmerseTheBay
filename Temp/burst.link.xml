@@ -1,0 +1,10 @@
+<linker>
+ <assembly fullname="UnityEngine.CoreModule">
+  <type fullname="UnityEngine.Quaternion">
+   <method name="Inverse_Injected"/>
+  </type>
+  <type fullname="UnityEngine.Vector3">
+   <method name="Slerp_Injected"/>
+  </type>
+ </assembly>
+</linker>
