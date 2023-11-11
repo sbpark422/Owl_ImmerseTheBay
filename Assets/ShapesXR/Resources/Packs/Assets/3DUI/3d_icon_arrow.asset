@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7b44030d49b5c4aba918ee854fcf08, type: 3}
+  m_Name: 3d_icon_arrow
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 7059721945638099751, guid: 852f8d69da094ca43baef61bf1341d6c, type: 3}
+  _serializedGuid: 5a85a2d3daa51c489a7b5aa1f98d7003
+  _fitterType: 0

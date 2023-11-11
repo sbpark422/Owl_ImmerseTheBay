@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7b44030d49b5c4aba918ee854fcf08, type: 3}
+  m_Name: Capsulabox
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 349983340242085326, guid: 8a628f3c2c2ebe44ebb798e28c295ddb, type: 3}
+  _serializedGuid: 5784bdef493ad04ebf0f6c7599fc4b6d
+  _fitterType: 0

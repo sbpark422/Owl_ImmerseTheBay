@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7b44030d49b5c4aba918ee854fcf08, type: 3}
+  m_Name: Controller_Left
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 831345362418827342, guid: 1fa499d909f7da54a9371f89e662bf22, type: 3}
+  _serializedGuid: 2cd87c2aeda2df4e9ec9b6a75630575e
+  _fitterType: 0

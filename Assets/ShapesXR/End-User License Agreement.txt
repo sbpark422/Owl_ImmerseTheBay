@@ -1,0 +1,103 @@
+End-User License Agreement
+
+
+Last updated: October 12, 2021
+
+
+This End-User License Agreement ("EULA") is a legal agreement between you and Tvori Inc.
+
+
+This EULA agreement governs your acquisition and use of our ShapesXR software ("Software") directly from Tvori Inc. or indirectly through a Tvori Inc. authorized reseller or distributor (a "Reseller").
+
+
+Please read this EULA agreement carefully before completing the installation process and using the ShapesXR software. It provides a license to use the ShapesXR software and contains warranty information and liability disclaimers. If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions.
+
+
+If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement. You may not accept this EULA if You are not of legal age to form a binding contract with Tvori Inc. This Privacy Policy applies to our websites (https://shapesxr.com, https://shapes.app), their associated subdomains, and all of our other applications that may be under development (collectively, our "Service"). By accessing or using our Service, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy and our End-User License Agreement.
+
+
+You may not accept this EULA if You are not of legal age to form a binding contract with Tvori Inc.
+
+
+Definitions
+
+
+1.1. In this EULA the expressions below shall have the meaning assigned to them in this clause, unless the context requires otherwise:
+
+
+"Documentation" the detailed information about the ShapesXR Software, its features and the system requirements as made available on the website of Tvori Inc. (shapesxr.com), as amended from time to time,
+"Software" any software application and/or all of the contents of the files and/or other media, including software setup files, licensed to You by Tvori Inc., including any Updates,
+"Subscription license" – the right to use ShapesXR software under the terms of the present EULA,
+"Subscription license fee" – the amount paid for the usage of ShapesXR software under the terms of the present EULA,
+"Updates" any modified versions and updates of, and additions to the Software (excluding upgrades of the Software),
+"Use" the access, download, install, copy or get benefit from using the Software in accordance with the documentation.
+"You" you, the final and ultimate user of the Software or the authorized representative of a company or other legal entity that will be the final and ultimate user of the Software, and the company or other legal entity that will be the final and ultimate user of the Software, if applicable.
+
+
+Software Description
+
+
+ShapesXR is a collaborative design tool to prototype AR and VR content and user experience for real-world products. It enables remote product teams with the tool for brainstorming & ideation in 3D, rapid prototyping, instant sharing and real-time co-editing. It's a platform for live synchronization between all stakeholders, agile iterations on designs and thus accelerated product time-to-market.
+ShapesXR was born with the mission to democratize 3D content creation allowing  product owners, business leaders, and designers to finally start thinking and creating spatially together.
+
+
+Up to date information about ShapesXR: https://shapesxr.com
+
+
+1. General
+1.2. This EULA applies to any licenses granted to You by Tvori Inc. for the use of the Software.
+1.3. By accepting this EULA You enter into this EULA with Tvori Inc.
+1.4. This EULA may be modified from time to time, and such modifications shall be effective immediately upon posting of the modified EULA. Your continued use of the Software will mean you accept the modified EULA as of the last revised date noted below.
+2. License
+2.1. Tvori Inc. hereby grants you a personal, short-term, non-transferable, non-exclusive limited subscription licence to install and use ShapesXR software on one seat (computer) in accordance with the terms of this EULA agreement.
+
+
+2.2. Subscription license granted under this EULA agreement is valid for either 12 (twelve) months in case of 1 year purchase or 1 month in case of monthly payment from the date of Software installation.
+
+
+2.2. You are responsible for ensuring your device meets the recommended hardware requirements of the ShapesXR.
+
+
+2.3. None of the provisions of this agreement allows to use ShapesXR license granted under EULA in concurrent (floating) mode.
+
+
+2.4. Subscription license fees paid are not refundable and payments are non-cancelable.
+3. License restrictions
+3.1. IT IS NOT ALLOWED to: (i) modify, alter, amend, fix, translate, enhance or otherwise create derivative works of the Software; (ii) reverse engineer, disassemble or decompile of any portion of the Software; (iii) remove, disable, or otherwise create or implement any workaround to, any security features contained in the ShapesXR software; (iv) remove, delete or alter any trademarks, copyright notices or other intellectual property rights notices of Licensor or its licensors, if any, from the ShapesXR software; (v) copy the ShapesXR software, in whole or in part, except as provided herein; (vi) rent, lease, lend, sell, sublicense, assign, distribute, publish, transfer or otherwise make the ShapesXR software available to any third party for any reason; (vii) use the ShapesXR software in violation of any applicable law, regulation or rule; (viii) disclose results of any benchmark or other performance tests to any third party without Tvori Inc. prior written consent; (ix) use the ShapesXR software for the purposes of developing a competing solution; or (x) use the Software in any other manner or for any other purpose or application not expressly permitted by Tvori Inc.
+
+
+3.2.You do not have a right to make available under any law or under a contractual relationship; (c) infringes any patent, trademark, trade secret, copyright or other proprietary rights of any party (including privacy rights); (d) is or contains unsolicited or unauthorized advertising, solicitations for business promotional materials, "junk mail," "spam," "chain letters," "pyramid schemes," or any other form of solicitation; (e) contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment or data or the Website or that of any users or viewers of the Website or that compromises a user's privacy; (f) or contains any falsehoods or misrepresentations or create an impression that You know is incorrect, misleading, or deceptive, or any material that could damage or harm minors in any way;
+
+
+3.3. You do not have a right to make archival or other copies of the ShapesXR software, in whole or in part;
+
+
+3.4. You will provide technological and security measures to ensure that the Software is physically and electronically secure from unauthorized use or access.
+4. Intellectual Property and Ownership
+4.1. Tvori Inc. shall at all times retain ownership of the Software as originally downloaded by you and all subsequent downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever nature in the Software, including any modifications made thereto) are and shall remain the property of Tvori Inc.
+
+
+4.2. Any provisions of the present EULA are not and cannot be considered as transfer of exclusive rights for intellectual property of the ShapesXR. All Intellectual Property Rights over and in respect of the Software are owned by Tvori Inc. You do not acquire any exclusive rights of ownership in the Asset under this Agreement.
+5. Maintenance and support
+5.1. Software Support is provided at no additional cost throughout the License validity period in the amount required only for ShapesXR stable operation;
+5.2. Any maintenance and support provided for ShapesXR, including the provision of Updates and upgrades, will be provided in an adequate way on an "as is" basis without any warranty ('garantie'), as soon as reasonably practicable, subject to availability of personnel.
+5.3. Tvori Inc. will notify You of any available Updates and upgrades.
+5.4. You may need to pay an additional fee in order to be able to download an upgrade.
+5.5. Any maintenance and support provided by Tvori Inc., including the provision of Updates and upgrades, will be provided in an adequate way on an "as is" basis without any warranty ('garantie'), as soon as reasonably practicable, subject to availability of personnel.
+6. Use of data
+6.1. Tvori Inc. and its subsidiaries may periodically collect and use technical and related data concerning the Software You have licensed, including about the version number of the Software You have installed and about the system You have installed the Software on. Tvori Inc. will use such data to facilitate maintenance and support with respect to the Software, to improve its products and to provide further services or technologies to You.
+6.2. Tvori Inc. may process personal data with respect to You, if and to the extent necessary to provide the License, to provide maintenance and support to You with respect to the Software and to comply with its obligations under this EULA.
+7. Disclaimer
+7.1. THE SOFTWARE IS PROVIDED "AS IS" AND TVORI INC. EXPRESSLY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, WITH RESPECT TO THE SOFTWARE, APPLICABLE DOCUMENTATION, MEDIA AND ANY OTHER SERVICES AND MATERIALS PROVIDED TO THE LICENSEE UNDER THIS AGREEMENT, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND WARRANTIES ARISING FROM A COURSE OF DEALING, USAGE OR TRADE PRACTICE. WITHOUT LIMITATION TO THE FOREGOING, LICENSOR PROVIDES NO WARRANTY OR UNDERTAKING, AND MAKES NO REPRESENTATION OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, THAT THE SOFTWARE WILL MEET THE LICENSEE'S REQUIREMENTS, ACHIEVE ANY INTENDED RESULTS, BE COMPATIBLE OR WORK WITH ANY OTHER SOFTWARES, APPLICATIONS, SYSTEMS OR SERVICES (EXCEPT AS EXPRESSLY SET FORTH IN THE DOCUMENTATION), OPERATE WITHOUT INTERRUPTION, MEET ANY PERFORMANCE OR RELIABILITY STANDARDS OR BE ERROR FREE.
+8. Liability limitation
+8.1. Tvori Inc. will in no way be liable to You or any third party for any loss or damage, however caused (including through negligence) which may be directly or indirectly suffered in connection with any use of the Software.
+8.2. Tvori Inc. does not warrant that the Software will function in any environment.
+9. Termination
+9.1. This EULA agreement is effective from the date you first use the Software and shall continue until terminated.
+9.2. The Subscription will terminate automatically at the end of the applicable license term, unless renewed or Activated prior to the end of the applicable license term.
+9.3. It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination, the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of the Software. The provisions that by their nature continue and survive will survive any termination of this EULA agreement. In the event You fail to pay Your (subscription) fee for the Software within the applicable payment term, or in the event Tvori Inc. is required to do so by law or an order of an applicable court.
+9.4. Upon termination of the Subscription, You shall cease all use of the Software and shall destroy all copies thereof.
+9.5. You acknowledge that the provisions of this EULA, which by their nature are intended to survive termination, will remain in effect after termination of this EULA.
+10. Recommended hardware
+* ShapesXR works on Oculus Quest 1, Oculus Quest 2.
+* ShapesXR has a web-panel available for users through web browsers (e.g Google Chrome, Firefox) at https://shapes.app

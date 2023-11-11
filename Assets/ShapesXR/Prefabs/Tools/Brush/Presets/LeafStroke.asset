@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca1cce05a5b48df98fd03e633b92c91, type: 3}
+  m_Name: LeafStroke
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 7340648746851034769, guid: 67c80d319db00a34c9e53f08121e6702, type: 3}
+  _serializedGuid: adc50f3a34c90643806360f5940cae06
+  _scale: 0.005
+  _shape:
+  - {x: 0, y: 0, z: 0}
+  - {x: -0.08064592, y: 0.07868388, z: 0}
+  - {x: -0.56461877, y: 0.071626395, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: -1.0025725, y: -0.016398929, z: 0}
+  - {x: -0.3593733, y: 0.004796263, z: 0}
+  - {x: 0, y: -0.05190274, z: 0}
+  - {x: 0.3593733, y: 0.004796263, z: 0}
+  - {x: 1.0025725, y: -0.016398929, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: 0.56461877, y: 0.071626395, z: 0}
+  - {x: 0.08064592, y: 0.07868388, z: 0}
+  _lodShape: []
+  _smoothedPoints: 8
+  _doubleSided: 1
+  _closedShape: 0
+  _closedCaps: 0
+  _color:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 1}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 1, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 0, g: 0.08505559, b: 1, a: 0}
+    key5: {r: 1, g: 1, b: 1, a: 0}
+    key6: {r: 0, g: 0.08527136, b: 1, a: 0}
+    key7: {r: 1, g: 1, b: 1, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 18697
+    ctime3: 27949
+    ctime4: 37394
+    ctime5: 47224
+    ctime6: 56090
+    ctime7: 65535
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  _profile:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

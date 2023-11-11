@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd5d20b6e6b9245a5a7400a33eb99d, type: 3}
+  m_Name: Jack_man_puppet_sitting-talking
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 490997042582652725, guid: 03cdcac969b69254699880878ebbba8a, type: 3}
+  _serializedGuid: b283139ddaf32f489644261f939171dd
+  _fitterType: 0
+  _pose: {fileID: 7719806525741730666, guid: 7088c648c09ed354e923a4c6553574a0, type: 3}

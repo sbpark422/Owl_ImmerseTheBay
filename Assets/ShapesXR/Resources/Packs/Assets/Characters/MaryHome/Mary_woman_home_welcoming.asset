@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd5d20b6e6b9245a5a7400a33eb99d, type: 3}
+  m_Name: Mary_woman_home_welcoming
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 490997042582652725, guid: 03cdcac969b69254699880878ebbba8a, type: 3}
+  _serializedGuid: 1349aa0bd7b3114caee4dba65105a6fa
+  _fitterType: 0
+  _pose: {fileID: 5692326839609204200, guid: cd69bbcd6c1e3c7419bb4597132e3b36, type: 3}

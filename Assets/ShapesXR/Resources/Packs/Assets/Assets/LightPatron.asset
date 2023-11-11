@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7b44030d49b5c4aba918ee854fcf08, type: 3}
+  m_Name: LightPatron
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 7247135986111719414, guid: 7127fa0786815be4eab52d6780ec949a, type: 3}
+  _serializedGuid: 8e63e3996a6bf04b992df7fb26abc28e
+  _fitterType: 0

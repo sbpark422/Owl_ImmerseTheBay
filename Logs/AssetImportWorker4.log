@@ -1,0 +1,336 @@
+Unity Editor version:    2022.3.9f1 (ea401c316338)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/soobin/Downloads/immersethebay-starter copy
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49495
+Successfully changed project path to: /Users/soobin/Downloads/immersethebay-starter copy
+/Users/soobin/Downloads/immersethebay-starter copy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8469461632] Host "[IP] 10.32.186.85 [Port] 0 [Flags] 2 [Guid] 3557735570 [EditorId] 3557735570 [Version] 1048832 [Id] OSXEditor(0,Soos-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8469461632] Host "[IP] 10.32.186.85 [Port] 0 [Flags] 2 [Guid] 3557735570 [EditorId] 3557735570 [Version] 1048832 [Id] OSXEditor(0,Soos-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Refreshing native plugins compatible for Editor in 32.41 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/soobin/Downloads/immersethebay-starter copy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56591
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004633 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 227 ms
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 751ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (363ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (56ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.602 seconds
+Refreshing native plugins compatible for Editor in 5.25 ms, found 9 plugins.
+Native extension for iOS target not found
+2023-11-10 14:52:46.453 Unity[41591:1740717] [XcodeApplications] Failed to read NSDictionary from path Zh/Contents/Info.plist
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.464 seconds
+Domain Reload Profiling: 1068ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (465ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.79 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (338.2 KB). Loaded Objects now: 5567.
+Memory consumption went from 181.5 MB to 181.2 MB.
+Total: 3.428333 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.062042 ms MarkObjects: 2.930333 ms  DeleteObjects: 0.270250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:scripting/monoscript/fileName/uint3x3.gen.cs: 46f89d8a7f81b6035a7e26991fbc72e8 -> b354ea0e62ee3ca695eba400f73bf8a2
+  custom:scripting/monoscript/fileName/double4.gen.cs: b43680ff2b317f0fe763ec2a9290cc4d -> c861322ff5ab8c01e3e4b508791cf124
+  custom:scripting/monoscript/fileName/rigid_transform.cs: d545dec909ae361cd40bcedcc9499d93 -> 36bbdd985ffacdf5ee0745cfd3a1f08d
+  custom:scripting/monoscript/fileName/PropertyAttributes.cs: 06c93b729a6fbfd605aedc09fb6acd2e -> f9be6ff8022c2b7e9364b782f234d192
+  custom:scripting/monoscript/fileName/uint4x4.gen.cs: 4b02c6eee0f00ce1a388bc44dd5ccc7c -> 7732c53bd697b7eb03dd735297da0fc1
+  custom:scripting/monoscript/fileName/SimpleJSON.cs: e4324021b35ac62cbdd99755907fe986 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/int2.gen.cs: 7d7139da21249719b860c4fd6fa5b14f -> ba08380188673eb89fbe6c63125635e5
+  custom:scripting/monoscript/fileName/int4.gen.cs: 6fd7c2be80cf8c29505f41dfd239b1ae -> 6202c51352f8408238811f81cf17884b
+  custom:scripting/monoscript/fileName/noise3D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/float4x2.gen.cs: 05588d3fca2e28a31b6264c026dcf338 -> a70cf4e9d29e9357ba0e68d3ee43ce34
+  custom:scripting/monoscript/fileName/half3.gen.cs: 5d046df99f0d37f450cb3ea068ad7762 -> 935b3c49f9c5126f28352e4a48406e0a
+  custom:scripting/monoscript/fileName/PackageData.cs: 6c114e54842b6024b44c7515b77b89a4 -> 
+  custom:scripting/monoscript/fileName/uint2x4.gen.cs: 3caae4a623bddfadce4b73c36541ab39 -> 817d68c720fa6aa9b67a61d7c1b206d0
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/bool4.gen.cs: 89d5db5b25176f8ce2b31291a8fcf567 -> ca7c0171e1585aef1c2900b66db0977a
+  custom:scripting/monoscript/fileName/float4x3.gen.cs: 5e75d4a49b27c7bfdc5d24ca328726c6 -> 82da2e74a1c9948cc673acd7425c23e5
+  custom:scripting/monoscript/fileName/float3x4.gen.cs: e028949e7cd389a54d6b8ef7c0e4a804 -> f425eda36f0a9a6a9785ce693ab31c65
+  custom:scripting/monoscript/fileName/bool4x4.gen.cs: 50a6831c58ef3836ae8715535acd4a4c -> 832d1ba72f52e457d65ecd6ca1ba2b2e
+  custom:scripting/monoscript/fileName/math_unity_conversion.cs: a14c20536b1fc0611d8629220aec8be2 -> 717272b42fdbca1935830b3071b2da3c
+  custom:scripting/monoscript/fileName/double3x3.gen.cs: a1e2af8139fc0e717165cdc2c522e14d -> cf2bca4cc9e8b93d47929417a1a999f7
+  custom:scripting/monoscript/fileName/double3x2.gen.cs: 46c3fc0f20bf244200b61fe88bd5c16a -> 87fbe5b4a5a90e3c915d83933bb7a691
+  custom:scripting/monoscript/fileName/bool3x2.gen.cs: 7f2024bb8e107c3b85f93e6847f677c0 -> 6ad67e842e9f001f4905675e041c0394
+  custom:scripting/monoscript/fileName/half2.gen.cs: 7816131b273dfbe62c7a27c74161c262 -> a6f90a50ab057fcfbb93f80dff9467ec
+  custom:scripting/monoscript/fileName/Il2CppEagerStaticClassConstructionAttribute.cs: bfb9943dc4234f8038240348dd8c0237 -> 5ae90a36296d2fe83dd98e9361e907e8
+  custom:scripting/monoscript/fileName/cellular2x2.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/half.cs: d66ca18b1c3237e0e12e183e1878dc38 -> cf3f2b0bcee127ccdac6d87167bcc406
+  custom:scripting/monoscript/fileName/noise3Dgrad.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/bool4x2.gen.cs: 586d6e84a82661c406c0747e29931ce1 -> 5e92d30f937bc7e4e4a07b2b81c06b27
+  custom:scripting/monoscript/fileName/Plane.cs: c32fcb4d635f10949ba9a2b53f7d21ec -> 69547098044c0683a5ff9d9b8674a0ba
+  custom:scripting/monoscript/fileName/classicnoise3D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/MinMaxAABB.cs: 99b6b3f339a5e250751ae4f780607d7a -> 87e440667b74c17b186d7505988d93e6
+  custom:scripting/monoscript/fileName/double2x2.gen.cs: 1175e86c851890dc199d0e88708ffccb -> 1b24b88380b01d73274245c8a3f891ca
+  custom:scripting/monoscript/fileName/float2x2.gen.cs: 43554c150c14083eb2313acaa2e78aeb -> f203c6ed52cbda2033cd1859a76ab02f
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/bool2x4.gen.cs: 43766066d40cfe4ff0038faa3bf06406 -> 0202187d1d97b3838c3acec749a94370
+  custom:scripting/monoscript/fileName/uint2x3.gen.cs: a0bafa71da357e9ffdf41329e0e0b8ab -> dc149d5147f76ef2e3b7b3e87df71cde
+  custom:scripting/monoscript/fileName/classicnoise4D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/int4x3.gen.cs: 67f76716aed15a7705ce52ae92c6a128 -> 8504016f71ab8b36158b7cb8a5461a8b
+  custom:scripting/monoscript/fileName/classicnoise2D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/MatrixDrawer.cs: 8db100ecc54d49584518b132374bd945 -> 54f407ec7134aa445531b0da7f5e0ded
+  custom:scripting/monoscript/fileName/float2x4.gen.cs: 14bf825e2338394967d25657f23195c2 -> 8f6e3792d53a47d3e0816efd26cbabde
+  custom:scripting/monoscript/fileName/matrix.gen.cs: 1fc7e9a9978c6bc6327a2ef3562b3b82 -> 8040951fec6b586df3a34908a47f7536
+  custom:scripting/monoscript/fileName/PostNormalizedVectorDrawer.cs: bcc5a130e288cb1ea7e6214244bd90aa -> 1e9cc5a1d5ea64a4691d9edff2f31467
+  custom:scripting/monoscript/fileName/int2x4.gen.cs: 19df88eae659245962107924a4f8beb4 -> 5edaa4c8e18b723d836f4e66d7a2ad24
+  custom:scripting/monoscript/fileName/double2.gen.cs: 6d6f846a6947f4edc6c86aae983cab7a -> 9fcc709faf542a3c28101e289489d3c3
+  custom:scripting/monoscript/fileName/bool2x2.gen.cs: 9f5ba9e667296230e5a7dd8098d86f1e -> 4649c574bdda23c59b5d49d1b662bc61
+  custom:scripting/monoscript/fileName/uint3x2.gen.cs: cb5adb59636d29fe64c2a59690629fe9 -> e9ed99b7eae876425b9236af5d545e3a
+  custom:scripting/monoscript/fileName/int2x2.gen.cs: b89550457ed493745cf779e29d833419 -> 63739a46f5092b211c341383068e9d3a
+  custom:scripting/monoscript/fileName/uint3.gen.cs: 07250d494d70da63323c03829a109a7b -> 2439c557987b3f1dafd36143ddfb8c40
+  custom:scripting/monoscript/fileName/double4x4.gen.cs: c712f0479a2da80505c5f34004582140 -> d67599d4a9300cb241e4695cd70324ae
+  custom:scripting/monoscript/fileName/ManifestTools.cs: 5a8d339301a0cadce3d016ea82a349d1 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/bool2x3.gen.cs: a73639df76ec913064f3ac91f58b98c5 -> c45708c9bd53a8b7f658164314a10c61
+  custom:scripting/monoscript/fileName/math.cs: 84897ebc80325b58465d1a856e47c89e -> a047924d946a4a0ad272fa60e1f62976
+  custom:scripting/monoscript/fileName/double4x3.gen.cs: d5e192211e239db73c016b47e641c333 -> 0f480b77cbe2235a6a07fec4a8104303
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/float3.gen.cs: d2a3af208755cfe0205a5add4cbf782b -> 61e461104f30d07064c299c5ac2c9a3e
+  custom:scripting/monoscript/fileName/int3.gen.cs: 9e9f576d507fb3936c89b523e378eb23 -> f3e7aece5ea81aaaacfae8f3b0dbf645
+  custom:scripting/monoscript/fileName/int3x3.gen.cs: 8da9d8d1067461c55dbf4fa0f6b692cf -> dc1405f0f1704a2ec1efb4946b5d5f85
+  custom:scripting/monoscript/fileName/quaternion.cs: 7189ca19bff9611f6da0aa0a9c59bf0b -> 0762c6482396ed4f34408952c0956647
+  custom:scripting/monoscript/fileName/int4x4.gen.cs: 0e76084ebee4c8312f336ff84d58a04c -> e1c5029dddb71a1513ebdf470db7528e
+  custom:scripting/monoscript/fileName/float4x4.gen.cs: cccf3207dd639016e8d0fc5b940ce646 -> a5bb36679a244217e37dd9fb5d3d2ed4
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/double3x4.gen.cs: d966fefecbb21e1878e781b6e6eb9bc1 -> d3f6959e28d6480d7d5313a2c890e5a1
+  custom:scripting/monoscript/fileName/bool4x3.gen.cs: fe90c06e5cec5b26385f16e64919351e -> 3b9b4adbcec8eec926ee3ca5bd1a9e49
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/half4.gen.cs: 0f1fcad15aa401d00bc4590770c4f62b -> abea9356568c8480c38dd790db58969d
+  custom:scripting/monoscript/fileName/uint4x3.gen.cs: 5c842eaf04659601d64e86e873d2dc4b -> b01c5cd7a56bd5c67682617427bf7881
+  custom:scripting/monoscript/fileName/noise2D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/bool2.gen.cs: 861fe78322050118fc595dc4284cae94 -> 26e96b66e2dc8fbd46eb4ce6284c510a
+  custom:scripting/monoscript/fileName/bool3.gen.cs: f73cc99fcfd3d7b311d94017869f72e0 -> 5af2629b3ff9dbb3bbfcc70064a35529
+  custom:scripting/monoscript/fileName/uint4x2.gen.cs: e8b292c670996f99dc647f630b2d028d -> b7591412c0d582e5dffe67f85a90dd0a
+  custom:scripting/monoscript/fileName/int3x2.gen.cs: 3102a78c1d8b0f67c6797c0bf649d991 -> 3713def57441460b7d8181bf2ebb068b
+  custom:scripting/monoscript/fileName/random.cs: 9095e89a9c9a9233dfc5faa4dc75c33b -> 773187f16d25a3763332e4d0e08067fb
+  custom:scripting/monoscript/fileName/float4.gen.cs: a5929fc9c81f37a217f61110104af506 -> b782c632ec38515e69077afe722e950b
+  custom:scripting/monoscript/fileName/uint3x4.gen.cs: 810549df666bfc264109dae029c3ad17 -> 85b37160b72ca5d09aa390a0ed4ac5d3
+  custom:scripting/monoscript/fileName/SemVersion.cs: 1d5161dfd704cc9f636c7d818947e21e -> 
+  custom:scripting/monoscript/fileName/float3x2.gen.cs: 545e8762f0e28e5bb1be1c472fa039dd -> c82cdc670988a624afef0b4a59da9960
+  custom:scripting/monoscript/fileName/int4x2.gen.cs: 06de189ab87954f032d6395001af7bcc -> 03019ae5b6ae2c22f6bcc41f109a6f3f
+  custom:scripting/monoscript/fileName/double3.gen.cs: 5154079fb312071cf35601a361004703 -> 377c7acd7948bf71aea5d8cf8236ee9b
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:scripting/monoscript/fileName/InstallationConfig.cs: 6745ec926f8b5447b88d5f21f0ae4916 -> 
+  custom:scripting/monoscript/fileName/uint2.gen.cs: 16c687047be4a3d9d18671b7f1514a8d -> f442e48493395c3c057fa324c1ed7700
+  custom:scripting/monoscript/fileName/float2x3.gen.cs: f18325e6146a706cc21256589a35acb7 -> dd8be2164b904b64628efafb474868f4
+  custom:scripting/monoscript/fileName/cellular2x2x2.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/matrix.cs: 3c89deedfaaffcc017fba2cf913f12ee -> 17bd875ecbf69296bc7f1415237b5bf7
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/cellular3D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/bool3x4.gen.cs: 42c7ba8bd569aafe7a1ccd38b69ca362 -> dd64119ecce8747c9d345fc62ed63bff
+  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/int2x3.gen.cs: 19a71af308909120a7ea6452646e4208 -> 377af658550da76bc0efa7c5a755eb90
+  custom:scripting/monoscript/fileName/double2x4.gen.cs: a9aedae31eab942a01dd81f5ba23ebf4 -> 685c5fa921181be1c5c2624181389ad3
+  custom:scripting/monoscript/fileName/uint4.gen.cs: 51a7f5c759ac89d78a4704a138bbec45 -> 39973cd09553f87c6828ba478621c98d
+  custom:scripting/monoscript/fileName/cellular2D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/double2x3.gen.cs: ac0d6fc940b41f658b24853cf23739e5 -> 2fbeb18c538397a8260f5c41cab0741e
+  custom:scripting/monoscript/fileName/int3x4.gen.cs: a41355fd8e3f2df0223626fb4f0b3908 -> 8460bfcadb3ac350c26daa6b9595294c
+  custom:scripting/monoscript/fileName/noise4D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/psrdnoise2D.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:scripting/monoscript/fileName/QuaternionDrawer.cs: 3e16f8b999b15ff8f3cb65c56d92372c -> 11323f18a038f5e869f0b55e53c54a31
+  custom:scripting/monoscript/fileName/common.cs: 910f0614e94a5348f941ea0d56b2c568 -> 2eb29bf877494e27d7b8d68303a33727
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/uint2x2.gen.cs: 34db4f212de91eba69f70b6af2f41d23 -> ef58eafb69337704525106c30b2f9c86
+  custom:scripting/monoscript/fileName/float3x3.gen.cs: 7de503ab17ef781383880adc785d106c -> 48f350102ac697de2455487383306e62
+  custom:scripting/monoscript/fileName/float2.gen.cs: ccda4318c59b6be9ac0ec9d903bd32eb -> 6120954cdb3e1af6bb1e798ca56424e4
+  custom:scripting/monoscript/fileName/bool3x3.gen.cs: 754b61059993a0b49e4b0f1336d4eca5 -> f3dd982fcc1d0b33ec635c43c306a1b8
+  custom:scripting/monoscript/fileName/double4x2.gen.cs: 84122ae38bb713fba1bd132464694529 -> 530f8410a1ca9a96d8c16e723573cfae
+  custom:scripting/monoscript/fileName/PrimitiveVectorDrawer.cs: 29686ab5ff7580200bc34657b1e09832 -> 3e4cc385215599322653e09117c642ee
+========================================================================
+Received Import Request.
+  Time since last request: 221085.916093 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.12.1/Interaction Examples/Example Assets/3D Models/Ultraleap_Capsule_Interactable.fbx
+  artifactKey: Guid(bb3ecee9a68f1924584233016f36dcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ultraleap Tracking/6.12.1/Interaction Examples/Example Assets/3D Models/Ultraleap_Capsule_Interactable.fbx using Guid(bb3ecee9a68f1924584233016f36dcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7acfdcad0499792d51ea41ac307dae') in 0.378758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4149.776574 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(0d18b279ff9374f99a2e85f2bb558db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(0d18b279ff9374f99a2e85f2bb558db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80539105a2c8b14614ec0ff713beffa4') in 0.010006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+[usbmuxd] Attached: 1 00008110-0012283E3E98801E
+[usbmuxd] Detached: 1 00008110-0012283E3E98801E
+[usbmuxd] Attached: 3 00008110-0012283E3E98801E
+[usbmuxd] Detached: 3 00008110-0012283E3E98801E
+[usbmuxd] Attached: 4 00008110-0012283E3E98801E
+[usbmuxd] Detached: 4 00008110-0012283E3E98801E
+[usbmuxd] Attached: 5 00008110-0012283E3E98801E
+[usbmuxd] Detached: 5 00008110-0012283E3E98801E
+[usbmuxd] Attached: 6 00008110-0012283E3E98801E
+[usbmuxd] Detached: 6 00008110-0012283E3E98801E
+[usbmuxd] Attached: 7 00008110-0012283E3E98801E
+[usbmuxd] Detached: 7 00008110-0012283E3E98801E
+[usbmuxd] Attached: 8 00008110-0012283E3E98801E
+[usbmuxd] Detached: 8 00008110-0012283E3E98801E

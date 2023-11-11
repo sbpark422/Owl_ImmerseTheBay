@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7b44030d49b5c4aba918ee854fcf08, type: 3}
+  m_Name: ChamferBox
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 165489350427344622, guid: 300655cb183d9494f929f602254ee457, type: 3}
+  _serializedGuid: 0f4ca9e49add134b89513eca3a56daad
+  _fitterType: 1

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72415f65ea7e2b0478ca6de3fd0f4d61, type: 3}
+  m_Name: URPMaterialMapper
+  m_EditorClassIdentifier: 
+  _pbrOpaque:
+    _material: {fileID: 2100000, guid: fca644dacd93ff940930fdbe812ef90b, type: 2}
+    _colorParameterName: _BaseColor
+    _mainTextureParameterName: _BaseMap
+  _pbrTransparent:
+    _material: {fileID: 2100000, guid: 13d291e9ab15d724f9e503ae60924f73, type: 2}
+    _colorParameterName: _BaseColor
+    _mainTextureParameterName: _BaseMap
+  _pbrCutout:
+    _material: {fileID: 2100000, guid: f1b8300caea63f6419c76f81a9c14feb, type: 2}
+    _colorParameterName: _BaseColor
+    _mainTextureParameterName: _BaseMap
+    _cutoffParameterName: _AlphaClip
+  _unlitOpaque:
+    _material: {fileID: 2100000, guid: 5efdc7bf9c369bb4bbfdfeec957c3137, type: 2}
+    _colorParameterName: _Color
+    _mainTextureParameterName: _MainTex
+  _unlitTransparent:
+    _material: {fileID: 2100000, guid: 4231ac51d25c8074483276847fbd1947, type: 2}
+    _colorParameterName: _Color
+    _mainTextureParameterName: _MainTex
+  _unlitCutout:
+    _material: {fileID: 2100000, guid: d549b7a6637fd504fbbafcb70ef0c63c, type: 2}
+    _colorParameterName: _Color
+    _mainTextureParameterName: _MainTex
+    _cutoffParameterName: _Cutoff
+  _additive:
+    _material: {fileID: 2100000, guid: ef15ab5ef91bfdf4cb1bed9295247a5b, type: 2}
+    _colorParameterName: _Color
+    _mainTextureParameterName: _MainTex
+  _multiply:
+    _material: {fileID: 2100000, guid: ae52e0470fdbbf046bba12a42cf6819d, type: 2}
+    _colorParameterName: _Color
+    _mainTextureParameterName: _MainTex

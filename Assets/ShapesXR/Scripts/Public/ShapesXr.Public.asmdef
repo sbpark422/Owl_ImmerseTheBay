@@ -1,0 +1,17 @@
+{
+    "name": "ShapesXr",
+    "rootNamespace": "",
+    "references": [
+        "GUID:49d0db324d380c64d9c44b54cc18190e",
+        "GUID:86477e72489d22548922ee54dcb90888"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

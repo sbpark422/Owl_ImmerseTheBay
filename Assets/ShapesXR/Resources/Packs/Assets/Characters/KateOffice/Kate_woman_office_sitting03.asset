@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25cd5d20b6e6b9245a5a7400a33eb99d, type: 3}
+  m_Name: Kate_woman_office_sitting03
+  m_EditorClassIdentifier: 
+  _asset: {fileID: 490997042582652725, guid: 03cdcac969b69254699880878ebbba8a, type: 3}
+  _serializedGuid: d18b2d5b1a3ad84d8dc8ebddb34a6ef9
+  _fitterType: 0
+  _pose: {fileID: 7692182755232808400, guid: 537848d65b6f18943a3919fcf5c0fcb9, type: 3}
