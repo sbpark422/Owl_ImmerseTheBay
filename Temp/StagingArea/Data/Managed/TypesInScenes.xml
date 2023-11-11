@@ -1,6 +1,6 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="BallThrower" preserve="nothing"/>
+		<type fullname="BallLauncher" preserve="nothing"/>
 		<type fullname="PlayerScript" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">

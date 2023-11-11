@@ -1,52 +1,39 @@
 using UnityEngine;
 using System.Collections;
 
-public class BallThrower : MonoBehaviour
+public class BallLauncher : MonoBehaviour
 {
-    public Transform xrOrigin; // Reference to the XR Origin
     public GameObject ballPrefab; // The prefab of the ball to be thrown
-    public float throwInterval = 2.0f; // Time interval between throws
-    public Transform spawnLocation; // Single spawn location
+    public Transform launchPoint; // The point from which the ball is launched
+    public float launchInterval = 3.0f; // Time interval between launches
+    public float launchSpeed = 10f; // Speed at which the ball is launched
+    public float launchAngle = 45f; // Angle of launch
 
     private void Start()
     {
-        StartCoroutine(ThrowBallAtInterval());
+        StartCoroutine(LaunchBallAtInterval());
     }
 
-    private IEnumerator ThrowBallAtInterval()
+    private IEnumerator LaunchBallAtInterval()
     {
         while (true)
         {
-            yield return new WaitForSeconds(throwInterval);
-            ThrowBall();
+            yield return new WaitForSeconds(launchInterval);
+            LaunchBall();
         }
     }
 
-    private void ThrowBall()
+    private void LaunchBall()
     {
-        // Instantiate the ball at the spawn location
-        GameObject ball = Instantiate(ballPrefab, spawnLocation.position, Quaternion.identity);
+        // Instantiate the ball at the launch point
+        GameObject ball = Instantiate(ballPrefab, launchPoint.position, Quaternion.identity);
 
-        // Calculate parabolic trajectory
+        // Calculate launch velocity
         Rigidbody ballRigidbody = ball.GetComponent<Rigidbody>();
         if (ballRigidbody != null)
         {
-            ballRigidbody.velocity = CalculateParabolicVelocity(spawnLocation.position, xrOrigin.position, 1f); // Adjust the time parameter as needed
+            Vector3 launchDirection = Quaternion.AngleAxis(-launchAngle, launchPoint.right) * launchPoint.forward;
+            ballRigidbody.velocity = launchDirection * launchSpeed;
         }
-    }
-
-    private Vector3 CalculateParabolicVelocity(Vector3 start, Vector3 end, float time)
-    {
-        Vector3 distance = end - start;
-        Vector3 distanceXZ = distance;
-        distanceXZ.y = 0f;
-
-        float sY = distance.y;
-        float sXZ = distanceXZ.magnitude;
-
-        Vector3 velocityY = Vector3.up * Mathf.Sqrt(-2 * Physics.gravity.y * sY);
-        Vector3 velocityXZ = distanceXZ / time;
-
-        return velocityXZ + velocityY * -Mathf.Sign(Physics.gravity.y);
     }
 }

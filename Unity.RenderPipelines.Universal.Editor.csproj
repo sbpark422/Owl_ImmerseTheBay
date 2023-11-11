@@ -223,9 +223,9 @@
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/Overrides/ChannelMixerEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/2D/ShapeEditor/GUIFramework/LayoutData.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/Camera/UniversalRenderPipelineCameraUI.Output.Drawers.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/ShaderGUI/ShadingModels/BakedLitGUI.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/2D/ShapeEditor/Shapes/Polygon.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/ShaderGraph/Targets/UniversalUnlitSubTarget.cs" />
-    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/ShaderGUI/ShadingModels/BakedLitGUI.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/RendererDataPatcher.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/RendererFeatures/ScreenSpaceShadowsEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/Decal/ProjectedTransform.cs" />
@@ -266,8 +266,8 @@
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/ShaderGraph/Targets/UniversalFullscreenSubTarget.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/Overrides/TonemappingEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/2D/ShapeEditor/EditablePath/EditablePathController.cs" />
-    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/ShaderGraph/UniversalMetadata.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/ShaderGraph/Nodes/UniversalSampleBufferNode.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/ShaderGraph/UniversalMetadata.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/UpgradeCommon.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/RendererFeatures/ScreenSpaceAmbientOcclusionEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Editor/SavedParameter.cs" />

@@ -163,8 +163,8 @@
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/StringExtensions.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/Analytics/VolumePriorityUsageAnalytic.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/Camera/CameraUI.Rendering.Skin.cs" />
-    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/Volume/VolumeEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/Volume/SerializedDataParameter.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/Volume/VolumeEditor.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/Material/MaterialHeaderScope.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/Analytics/DebugManagerWindowLifetimeAnalytic.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.core@14.0.9/Editor/RemoveAdditionalDataUtils.cs" />

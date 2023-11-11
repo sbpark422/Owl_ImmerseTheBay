@@ -187,8 +187,8 @@
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Overrides/WhiteBalance.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Debug/DebugHandler.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Decal/Entities/DecalDrawSystem.cs" />
-    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Passes/CapturePass.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Passes/PostProcessPass.cs" />
+    <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Passes/CapturePass.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/2D/Light2DManager.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Decal/DecalProjector.cs" />
     <Compile Include="Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/Passes/ScriptableRenderPass.cs" />
