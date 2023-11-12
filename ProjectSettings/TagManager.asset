@@ -4,6 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Player Sprite
+  - SuperBall
+  - FxTemporaire
+  - Ball
+  - Gate
+  - Playing Level
+  - Wall
+  - Power Ball
   - ball
   layers:
   - Default
