@@ -60,6 +60,7 @@ Library: C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Temp\BurstOutput\tempburst
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Library\Burst
 --output=C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
@@ -127,6 +128,7 @@ Library: C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Temp\BurstOutput\tempburst
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Library\Burst
 --output=C:\Users\alexa\GitProjects\Owl_ImmerseTheBay\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
