@@ -774,12 +774,12 @@ public class Ball : MonoBehaviour {
 
         if (playerScript.team == 1)
         {
-         SetThrown(gameObject.transform.parent.gameObject, 1);
+         SetThrown(playerScript.transform.parent.gameObject, 1);
         }
 
         if (playerScript.team == 2)
         {
-      SetThrown(gameObject.transform.parent.gameObject, 2);
+      SetThrown(playerScript.transform.parent.gameObject, 2);
         }
 
         levelManager.AddThrow(this.gameObject, playerScript.gameObject);
