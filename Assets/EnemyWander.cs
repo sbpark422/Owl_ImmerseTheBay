@@ -11,12 +11,20 @@ public class EnemyWander : Foundry.Networking.NetworkComponent
     private float pauseTimer;
     private Vector3 moveDirection;
 
+    public float weightTowardsOrigin = 70f;  // 70% chance to move towards origin
+    public float weightRandomDirection = 30f; // 30% chance to move randomly
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         moveDirection = Vector3.forward;
         moveTimer = pauseDuration;
         pauseTimer = 0f;
+
+        float angle = Random.Range(0f, 360f);
+        Quaternion rotation = Quaternion.Euler(0f, angle, 0f);
+        moveDirection = rotation * Vector3.forward;
     }
 
     void Update()
@@ -33,8 +41,8 @@ public class EnemyWander : Foundry.Networking.NetworkComponent
             {
                 // Time to pause and pick a new direction
                 pauseTimer = Random.Range(1f, 3f); // Random pause duration between 1 and 3 seconds
-                moveTimer = pauseTimer + pauseDuration;
-                PickRandomDirection();
+                moveTimer = pauseTimer + pauseDuration*Random.Range(0f,1f);
+                moveDirection = ChooseDirection();
             }
             else
             {
@@ -44,10 +52,22 @@ public class EnemyWander : Foundry.Networking.NetworkComponent
         }
     }
 
-    void PickRandomDirection()
+
+    private Vector3 ChooseDirection()
     {
-        float angle = Random.Range(0f, 360f);
-        Quaternion rotation = Quaternion.Euler(0f, angle, 0f);
-        moveDirection = rotation * Vector3.forward;
+        float totalWeight = weightTowardsOrigin + weightRandomDirection;
+        float randomValue = Random.Range(0, totalWeight);
+
+        if (randomValue <= weightTowardsOrigin)
+        {
+            // Move towards the origin
+            Vector3 directionToOrigin = (Vector3.zero - transform.position).normalized;
+            return directionToOrigin;
+        }
+        else
+        {
+            // Move in a random direction
+            return new Vector3(Random.Range(-1f, 1f), 0, Random.Range(-1f, 1f)).normalized;
+        }
     }
 }

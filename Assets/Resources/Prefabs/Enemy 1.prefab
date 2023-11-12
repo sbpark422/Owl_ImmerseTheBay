@@ -621,6 +621,8 @@ MonoBehaviour:
   moveSpeed: 2
   turnSpeed: 75
   pauseDuration: 3
+  weightTowardsOrigin: 70
+  weightRandomDirection: 30
 --- !u!114 &8677368701313045396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,7 +646,7 @@ MonoBehaviour:
   NetworkComponents:
   - {fileID: 6773178482936399903}
   - {fileID: 3828542385646665318}
-  - {fileID: 6257200210352180955}
+  - {fileID: 6780011383221463087}
   guid: c376bdbb-6913-48d7-8b26-f94b29af1c73
 --- !u!114 &3828542385646665318
 MonoBehaviour:
@@ -2208,7 +2210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8273377640641966548}
-  - component: {fileID: 6257200210352180955}
+  - component: {fileID: 6780011383221463087}
   m_Layer: 0
   m_Name: BallThrower
   m_TagString: Untagged
@@ -2231,7 +2233,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2705161969993117594}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6257200210352180955
+--- !u!114 &6780011383221463087
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

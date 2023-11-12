@@ -15,11 +15,17 @@ public class BallLauncher : NetworkComponent
     public float firingAngle = 45.0f;
     public float gravity = 9.8f;
     public bool startCalled = false;
+    private Vector3 targetpos;
 
-    public override void OnConnected()
+    /*    public override void OnConnected()
+        {
+            startCalled = true;
+
+            StartCoroutine(LaunchBallAtInterval());
+        }*/
+
+    private void Start()
     {
-        startCalled = true;
-
         StartCoroutine(LaunchBallAtInterval());
     }
 
@@ -39,17 +45,22 @@ public class BallLauncher : NetworkComponent
         // Instantiate the ball at the launch point
         var spawnedPlayers = FindObjectsByType<Foundry.Player>(FindObjectsSortMode.None);
         Debug.Log("Spawned players: " + spawnedPlayers.Length);
-        if(spawnedPlayers.Length > 0 )
-            target = spawnedPlayers[Random.RandomRange(0, spawnedPlayers.Length -1)].transform;
-        if (!target)
-            return;
+        if (spawnedPlayers.Length > 0)
+        {
+            target = spawnedPlayers[Random.RandomRange(0, spawnedPlayers.Length - 1)].transform;
+            targetpos = target.position;
+        }
+        else
+            targetpos = new Vector3(0f, 5f, 0f);
+        // if (!target)
+        //    return;
 
 
         GameObject ball = NetworkManager.instance.Instantiate(ballPrefab, launchPoint.position, Quaternion.identity);
         ball.GetComponent<NetworkObject>().RequestOwnership();
         Rigidbody ballRigidbody = ball.GetComponent<Rigidbody>();
 
-        Vector3 AimPosition = target.position + new Vector3(Random.RandomRange(-1f, 1f), Random.RandomRange(-1f, 1f), Random.RandomRange(-1f, 1f));
+        Vector3 AimPosition = targetpos + new Vector3(Random.RandomRange(-1f, 1f), Random.RandomRange(-1f, 1f), Random.RandomRange(-1f, 1f));
 
         // Calculate distance to target
         float targetDistance = Vector3.Distance(launchPoint.position, AimPosition);
