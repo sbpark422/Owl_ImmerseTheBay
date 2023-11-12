@@ -61,7 +61,7 @@ public class EnemyWander : Foundry.Networking.NetworkComponent
         if (randomValue <= weightTowardsOrigin)
         {
             // Move towards the origin
-            Vector3 directionToOrigin = (Vector3.zero - transform.position).normalized;
+            Vector3 directionToOrigin = (new Vector3(-10f, 0f, 0f) - transform.position).normalized;
             return directionToOrigin;
         }
         else
