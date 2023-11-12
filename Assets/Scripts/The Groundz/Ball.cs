@@ -709,9 +709,106 @@ public class Ball : MonoBehaviour {
 
 
 
-    public void SetBallGrabbed(bool x)
+    public void BallGrab()
     {
-        
+        Player player = GetNearestPlayer();
+
+        grounded = false;                         //methodize
+        grabbed = true;
+
+        if (ThrownByOpp(this.gameObject, 2) || ThrownByOpp(this.gameObject, 1))
+        {
+     
+
+           //playCatch();
+
+          //  playerScript.TriggerCatchFX();
+
+            levelManager.ClearContacts(this.gameObject);
+           // levelManager.AddCatch(this.gameObject, parent);
+            levelManager.LastThrowerOut(this.gameObject);
+           // levelManager.GetAnotherPlayer(this.gameObject.GetComponentInParent<Player>().team);
+            levelManager.RemoveHit(this.gameObject);
+          //  levelManager.CatchDisplay(playerScript.color, playerConfigObject.transform.position, (Vector3.Magnitude(rigidbody.velocity) + Vector3.Magnitude(velocityCaught)) / 2f);
+            DeactivateThrow();
+
+            /*
+            float hitPauseDuration = Mathf.Clamp(velocityCaught.magnitude / 100f, 0, 3f);
+            float hitPausePreDelay = .36f;
+
+            DelayPause(hitPauseDuration, hitPausePreDelay);
+            */
+
+            print("~!Caught!~");
+        }
+    }
+
+
+    private bool ThrownByOpp(GameObject ball, int team)
+    {
+        if (team == 2)
+        {
+            if (thrownBy1 && gameObject.GetComponentInParent<Player>().team == 2)
+            {
+                thrownBy1 = false;
+                return true;
+            }
+
+        }
+        if (team == 1)
+        {
+            if (thrownBy2 && gameObject.GetComponentInParent<Player>().team == 1)
+            {
+                ball.GetComponent<Ball>().thrownBy2 = false;
+                return true;
+            }
+
+        }
+        return false;
+    }
+
+
+    public void BallReleased()
+    {
+        Player playerScript = GetNearestPlayer();
+
+        if (playerScript.team == 1)
+        {
+         SetThrown(gameObject.transform.parent.gameObject, 1);
+        }
+
+        if (playerScript.team == 2)
+        {
+      SetThrown(gameObject.transform.parent.gameObject, 2);
+        }
+
+        levelManager.AddThrow(this.gameObject, playerScript.gameObject);
+    }
+
+
+    public Player GetNearestPlayer()
+    {
+
+        Player nearestPlayer;
+        float min = 100000000f;
+
+        GameObject[] gameObjects;
+        gameObjects = GameObject.FindGameObjectsWithTag("Player");
+
+        if (gameObjects.Length == 0)
+        {
+            Debug.Log("No GameObjects are tagged with 'Enemy'");
+        }
+
+        foreach (GameObject player in gameObjects)
+        {
+            if (Vector3.Distance(player.gameObject.transform.position, this.gameObject.transform.position)  < min) { 
+            
+                nearestPlayer = player.GetComponent<Player>();
+            }
+        }
+
+        return nearestPlayer;
     }
 
 }
