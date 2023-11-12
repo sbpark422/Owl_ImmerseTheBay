@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 6773178482936399903}
   - component: {fileID: 8677368701313045396}
   - component: {fileID: 3828542385646665318}
+  - component: {fileID: 622853540924862717}
   m_Layer: 0
   m_Name: Enemy 1
   m_TagString: Untagged
@@ -617,9 +618,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd958e443285244b8cda6c6a1205fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
+  moveSpeed: 2
   turnSpeed: 75
-  pauseDuration: 1
+  pauseDuration: 3
 --- !u!114 &8677368701313045396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +665,58 @@ MonoBehaviour:
   lerpObject: {fileID: 0}
   nativeScript: {fileID: 0}
   api: {fileID: 0}
+--- !u!114 &622853540924862717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818454522379053820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 796d67f16b0b02544a4e6fc6f8d21fa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachedRigidbody: {fileID: 0}
+  handType: 2
+  maxHeldCount: 1
+  isGrabbable: 1
+  OnReleaseEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnGrabEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFirstHighlightEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFinalStopHighlightEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBeforeReleasedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBeforeGrabbedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAnyHighlightEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAnyStopHighlightEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlacePointHighlightEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlacePointUnhighlightEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlacePointAddEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlacePointRemoveEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1959338249804614137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,7 +2243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c15eb61a0cb76cc4ca9cad32931756e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballPrefab: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+  ballPrefab: {fileID: 3528844056433438573, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
   launchPoint: {fileID: 2705161969993117594}
   launchInterval: 3
   firingAngle: 45
