@@ -532,11 +532,10 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
   m_PrefabInstance: {fileID: 2107076198}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &413778344
+--- !u!114 &413778345 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -6299542504991741057, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+  m_PrefabInstance: {fileID: 2107076198}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413778335}
   m_Enabled: 1
@@ -544,38 +543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9065a452ec6443293ffda011a82934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSprite: {fileID: 0}
-  levelManager: {fileID: 0}
-  BallAudioSource: {fileID: 0}
-  hit: {fileID: 0}
-  bounce: {fileID: 0}
-  thrownAudioClip: {fileID: 0}
-  superInit: {fileID: 0}
-  superRelease: {fileID: 0}
-  superHit: {fileID: 0}
-  catchh: {fileID: 0}
-  regular: {fileID: 0}
-  super: {fileID: 0}
-  chargeAlpha: 0
-  grabbed: 0
-  thrown: 0
-  thrownBy1: 0
-  thrownBy2: 0
-  grounded: 1
-  contact: 0
-  pos0: {x: 0, y: 0, z: 0}
-  isSupering: 0
-  velocity: {x: 0, y: 0, z: 0}
-  isInPickUpRange: 0
-  thrownIndicator: {fileID: 0}
-  hitIndicator: {fileID: 0}
-  Player2BallAura: {fileID: 0}
-  shadow: {fileID: 0}
-  floorMarker: {fileID: 0}
-  superPackage: {fileID: 0}
-  type: 
-  isBeingPursued: 0
-  isCharging: 0
 --- !u!1001 &493935356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -684,11 +651,10 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
   m_PrefabInstance: {fileID: 1250842102}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &580075809
+--- !u!114 &580075810 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -6299542504991741057, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+  m_PrefabInstance: {fileID: 1250842102}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580075800}
   m_Enabled: 1
@@ -696,38 +662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9065a452ec6443293ffda011a82934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSprite: {fileID: 0}
-  levelManager: {fileID: 0}
-  BallAudioSource: {fileID: 0}
-  hit: {fileID: 0}
-  bounce: {fileID: 0}
-  thrownAudioClip: {fileID: 0}
-  superInit: {fileID: 0}
-  superRelease: {fileID: 0}
-  superHit: {fileID: 0}
-  catchh: {fileID: 0}
-  regular: {fileID: 0}
-  super: {fileID: 0}
-  chargeAlpha: 0
-  grabbed: 0
-  thrown: 0
-  thrownBy1: 0
-  thrownBy2: 0
-  grounded: 1
-  contact: 0
-  pos0: {x: 0, y: 0, z: 0}
-  isSupering: 0
-  velocity: {x: 0, y: 0, z: 0}
-  isInPickUpRange: 0
-  thrownIndicator: {fileID: 0}
-  hitIndicator: {fileID: 0}
-  Player2BallAura: {fileID: 0}
-  shadow: {fileID: 0}
-  floorMarker: {fileID: 0}
-  superPackage: {fileID: 0}
-  type: 
-  isBeingPursued: 0
-  isCharging: 0
 --- !u!1 &586636477
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,18 +811,43 @@ PrefabInstance:
     - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
       propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1359504764}
+      objectReference: {fileID: 1359504774}
     - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
       propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1359504774}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallGrab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallReleased
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1359504773}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
 --- !u!1 &832480048
 GameObject:
@@ -1235,13 +1194,42 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c5629e12b8069414d824db1cded37319, type: 2}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1582665088}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1582665088}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallGrab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallReleased
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1582665087}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
 --- !u!1 &1067728364 stripped
 GameObject:
@@ -2457,13 +2445,42 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c5629e12b8069414d824db1cded37319, type: 2}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 580075810}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 580075810}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallGrab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallReleased
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 580075809}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
 --- !u!1001 &1353962100
 PrefabInstance:
@@ -2546,11 +2563,10 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
   m_PrefabInstance: {fileID: 824587281}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1359504773
+--- !u!114 &1359504774 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -6299542504991741057, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+  m_PrefabInstance: {fileID: 824587281}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359504764}
   m_Enabled: 1
@@ -2558,38 +2574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9065a452ec6443293ffda011a82934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSprite: {fileID: 0}
-  levelManager: {fileID: 0}
-  BallAudioSource: {fileID: 0}
-  hit: {fileID: 0}
-  bounce: {fileID: 0}
-  thrownAudioClip: {fileID: 0}
-  superInit: {fileID: 0}
-  superRelease: {fileID: 0}
-  superHit: {fileID: 0}
-  catchh: {fileID: 0}
-  regular: {fileID: 0}
-  super: {fileID: 0}
-  chargeAlpha: 0
-  grabbed: 0
-  thrown: 0
-  thrownBy1: 0
-  thrownBy2: 0
-  grounded: 1
-  contact: 0
-  pos0: {x: 0, y: 0, z: 0}
-  isSupering: 0
-  velocity: {x: 0, y: 0, z: 0}
-  isInPickUpRange: 0
-  thrownIndicator: {fileID: 0}
-  hitIndicator: {fileID: 0}
-  Player2BallAura: {fileID: 0}
-  shadow: {fileID: 0}
-  floorMarker: {fileID: 0}
-  superPackage: {fileID: 0}
-  type: 
-  isBeingPursued: 0
-  isCharging: 0
 --- !u!1 &1433297548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2944,11 +2928,10 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
   m_PrefabInstance: {fileID: 1054200937}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1582665087
+--- !u!114 &1582665088 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -6299542504991741057, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+  m_PrefabInstance: {fileID: 1054200937}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582665078}
   m_Enabled: 1
@@ -2956,38 +2939,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9065a452ec6443293ffda011a82934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSprite: {fileID: 0}
-  levelManager: {fileID: 0}
-  BallAudioSource: {fileID: 0}
-  hit: {fileID: 0}
-  bounce: {fileID: 0}
-  thrownAudioClip: {fileID: 0}
-  superInit: {fileID: 0}
-  superRelease: {fileID: 0}
-  superHit: {fileID: 0}
-  catchh: {fileID: 0}
-  regular: {fileID: 0}
-  super: {fileID: 0}
-  chargeAlpha: 0
-  grabbed: 0
-  thrown: 0
-  thrownBy1: 0
-  thrownBy2: 0
-  grounded: 1
-  contact: 0
-  pos0: {x: 0, y: 0, z: 0}
-  isSupering: 0
-  velocity: {x: 0, y: 0, z: 0}
-  isInPickUpRange: 0
-  thrownIndicator: {fileID: 0}
-  hitIndicator: {fileID: 0}
-  Player2BallAura: {fileID: 0}
-  shadow: {fileID: 0}
-  floorMarker: {fileID: 0}
-  superPackage: {fileID: 0}
-  type: 
-  isBeingPursued: 0
-  isCharging: 0
 --- !u!1001 &1598424715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3432,11 +3383,10 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
   m_PrefabInstance: {fileID: 1836157729}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1785053642
+--- !u!114 &1785053643 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -6299542504991741057, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+  m_PrefabInstance: {fileID: 1836157729}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785053633}
   m_Enabled: 1
@@ -3444,38 +3394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f9065a452ec6443293ffda011a82934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultSprite: {fileID: 0}
-  levelManager: {fileID: 0}
-  BallAudioSource: {fileID: 0}
-  hit: {fileID: 0}
-  bounce: {fileID: 0}
-  thrownAudioClip: {fileID: 0}
-  superInit: {fileID: 0}
-  superRelease: {fileID: 0}
-  superHit: {fileID: 0}
-  catchh: {fileID: 0}
-  regular: {fileID: 0}
-  super: {fileID: 0}
-  chargeAlpha: 0
-  grabbed: 0
-  thrown: 0
-  thrownBy1: 0
-  thrownBy2: 0
-  grounded: 1
-  contact: 0
-  pos0: {x: 0, y: 0, z: 0}
-  isSupering: 0
-  velocity: {x: 0, y: 0, z: 0}
-  isInPickUpRange: 0
-  thrownIndicator: {fileID: 0}
-  hitIndicator: {fileID: 0}
-  Player2BallAura: {fileID: 0}
-  shadow: {fileID: 0}
-  floorMarker: {fileID: 0}
-  superPackage: {fileID: 0}
-  type: 
-  isBeingPursued: 0
-  isCharging: 0
 --- !u!1001 &1836157729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3544,13 +3462,42 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c5629e12b8069414d824db1cded37319, type: 2}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1785053643}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1785053643}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallGrab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallReleased
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1785053642}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
 --- !u!1 &1848557788
 GameObject:
@@ -4574,13 +4521,42 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c5629e12b8069414d824db1cded37319, type: 2}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 413778345}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 413778345}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallGrab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallReleased
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7634356647634395677, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3260363782050301912, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 413778344}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fea45657dfee84a966bfa0f7e25be3, type: 3}
 --- !u!1 &2144110548
 GameObject:
@@ -4639,6 +4615,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3528844056433438573, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
   m_PrefabInstance: {fileID: 8882260673554884797}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4596826098094950364 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4016950862279706190, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+  m_PrefabInstance: {fileID: 8882260673554884797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4596826098094950362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9065a452ec6443293ffda011a82934, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8882260673554884797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4699,7 +4686,40 @@ PrefabInstance:
       propertyPath: guid
       value: 56196b2d-96ef-450b-8d97-80801483e7ad
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4596826098094950364}
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4596826098094950364}
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallGrab
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BallReleased
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Ball, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnGrabEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8548380091700527226, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
+      propertyPath: OnReleaseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3686882007598087849, guid: 539eea4340404fe448fb526840c1f44b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

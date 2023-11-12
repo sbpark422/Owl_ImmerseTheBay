@@ -72,22 +72,7 @@ public class PlayerConfiguration : MonoBehaviour
 
         if (!levelManager)
         {
-            GameObject gameManager = GameObject.Find("GameManager");
-
-            if (gameManager)
-            {
-              levelManager =  gameManager.GetComponent<LevelManager>();
-            }
-
-            else
-            {
-                 gameManager = GameObject.Find("GameManager(Clone)");
-
-                if (gameManager)
-                {
-                    levelManager = gameManager.GetComponent<LevelManager>();
-                }
-            }
+             levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
         }
     }
