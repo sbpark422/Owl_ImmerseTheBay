@@ -1,7 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using Foundry.Networking;
+using Photon.Voice;
+using System.Linq;
+using Foundry;
 
-public class BallLauncher : MonoBehaviour
+public class BallLauncher : NetworkComponent
 {
     public GameObject ballPrefab; // The prefab of the ball to be thrown
     public Transform launchPoint; // The point from which the ball is launched
@@ -10,10 +14,11 @@ public class BallLauncher : MonoBehaviour
     // public float launchSpeed = 10f; // Speed at which the ball is launched
     public float firingAngle = 45.0f;
     public float gravity = 9.8f;
+    public bool startCalled = false;
 
-    private void Start()
+    public override void OnConnected()
     {
-        target = target = GameObject.Find("XR Origin (XR Rig)").GetComponent<Transform>();
+        startCalled = true;
 
         StartCoroutine(LaunchBallAtInterval());
     }
@@ -29,8 +34,19 @@ public class BallLauncher : MonoBehaviour
 
     private void LaunchBall()
     {
+        if (!IsOwner) return;
+
         // Instantiate the ball at the launch point
-        GameObject ball = Instantiate(ballPrefab, launchPoint.position, Quaternion.identity);
+        var spawnedPlayers = FindObjectsByType<Foundry.Player>(FindObjectsSortMode.None);
+        Debug.Log("Spawned players: " + spawnedPlayers.Length);
+        if(spawnedPlayers.Length > 0 )
+            target = spawnedPlayers[Random.RandomRange(0, spawnedPlayers.Length -1)].transform;
+        if (!target)
+            return;
+
+
+        GameObject ball = NetworkManager.instance.Instantiate(ballPrefab, launchPoint.position, Quaternion.identity);
+        ball.GetComponent<NetworkObject>().RequestOwnership();
         Rigidbody ballRigidbody = ball.GetComponent<Rigidbody>();
 
         Vector3 AimPosition = target.position + new Vector3(Random.RandomRange(-1f, 1f), Random.RandomRange(-1f, 1f), Random.RandomRange(-1f, 1f));

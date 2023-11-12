@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyWander : MonoBehaviour
+public class EnemyWander : Foundry.Networking.NetworkComponent
 {
     public float moveSpeed = 2f;
     public float turnSpeed = 60f;
@@ -21,6 +21,8 @@ public class EnemyWander : MonoBehaviour
 
     void Update()
     {
+        if(!IsOwner) return;
+
         // Update the timers
         moveTimer -= Time.deltaTime;
         pauseTimer -= Time.deltaTime;
@@ -30,8 +32,8 @@ public class EnemyWander : MonoBehaviour
             if (moveTimer <= 0)
             {
                 // Time to pause and pick a new direction
-                moveTimer = pauseDuration;
                 pauseTimer = Random.Range(1f, 3f); // Random pause duration between 1 and 3 seconds
+                moveTimer = pauseTimer + pauseDuration;
                 PickRandomDirection();
             }
             else
