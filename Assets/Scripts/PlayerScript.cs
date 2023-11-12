@@ -30,7 +30,6 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        VRDebug.Instance.Log("Collision Entered");
         Debug.Log("Collision Entered");
         // Check if the collision object is the parent object
         if (collision.gameObject == parentObject)
@@ -38,7 +37,6 @@ public class PlayerScript : MonoBehaviour
             if (collision.collider.CompareTag("ball"))
             {
                 //VRDebug.Instance.Log("Collision with " + collision.gameObject.name);
-                VRDebug.Instance.Log("Collision with ");
                 // Code for when the parent collider collides with a ball
                 // Debug.Log("Parent Hit by Ball");
                 // Additional logic for when the parent is hit
