@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Users;
-
+using System.Threading;
 
 public class Player : MonoBehaviour
 {
@@ -861,6 +861,10 @@ public class Player : MonoBehaviour
 
     }
 
-
+    public void MoveToSpawnPoint(Transform spawnPoint)
+    {
+        this.transform.position = spawnPoint.transform.position;
+        print("OnConnected");
+    }
 
 }

@@ -789,7 +789,7 @@ public class Ball : MonoBehaviour {
     public Player GetNearestPlayer()
     {
 
-        Player nearestPlayer;
+        Player nearestPlayer = null;
         float min = 100000000f;
 
         GameObject[] gameObjects;
