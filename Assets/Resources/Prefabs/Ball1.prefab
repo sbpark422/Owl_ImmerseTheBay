@@ -269,6 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultSprite: {fileID: 0}
   levelManager: {fileID: 0}
+  throwSpeedMultiplier: 0
   BallAudioSource: {fileID: 0}
   hit: {fileID: 0}
   bounce: {fileID: 0}
@@ -286,9 +287,7 @@ MonoBehaviour:
   thrownBy2: 0
   grounded: 1
   contact: 0
-  pos0: {x: 0, y: 0, z: 0}
   isSupering: 0
-  velocity: {x: 0, y: 0, z: 0}
   isInPickUpRange: 0
   thrownIndicator: {fileID: 0}
   hitIndicator: {fileID: 0}

@@ -15,7 +15,12 @@ public class Ball : MonoBehaviour {
 
 	public LevelManager levelManager;
 
-	public AudioSource BallAudioSource;
+    [Header("Player Settings")]
+    public float throwSpeedMultiplier =5f;
+    [Space(5)]
+
+    [Header("Audio & Material Settings")]
+    public AudioSource BallAudioSource;
 	public AudioClip hit;
 	public AudioClip bounce;
 	public AudioClip thrownAudioClip;
@@ -25,15 +30,17 @@ public class Ball : MonoBehaviour {
     public AudioClip catchh;
     public PhysicMaterial regular;
 	public PhysicMaterial super;
+    [Space(5)]
 
-    public float chargeAlpha;
-	public bool grabbed;
-    public bool thrown;
-	public bool thrownBy1;   // change to int thrownByTeam
-    public bool thrownBy2;   
-    public bool grounded =true;
 
-    public bool contact;
+
+    [HideInInspector] public float chargeAlpha;
+    [HideInInspector] public bool grabbed;
+    [HideInInspector] public bool thrown;
+	[HideInInspector]public bool thrownBy1;   // change to int thrownByTeam
+    [HideInInspector]public bool thrownBy2;   
+    [HideInInspector]public bool grounded = true;
+    [HideInInspector] public bool contact;
    // GameObject playerHit;
 
     private bool hasMag;
@@ -43,20 +50,20 @@ public class Ball : MonoBehaviour {
     float seekweight0 = 1f;
     float seekWeight;
 
-	public Vector3 pos0;
-	public bool isSupering;
-	public Vector3 velocity;
+    [HideInInspector] Vector3 pos0;
+	[HideInInspector] public bool isSupering;
+	[HideInInspector] Vector3 velocity;
 	private Vector3 lastVelocity;
 	private bool hasWhipped;
 
 
     public bool isInPickUpRange = false;
 
-    public GameObject thrownIndicator;
-    public GameObject hitIndicator;
-    public GameObject Player2BallAura;
-    public GameObject shadow;
-    public GameObject floorMarker;
+    [HideInInspector] public GameObject thrownIndicator;
+    [HideInInspector] public GameObject hitIndicator;
+    [HideInInspector] public GameObject Player2BallAura;
+    [HideInInspector] public GameObject shadow;
+    [HideInInspector] public GameObject floorMarker;
 
      float xSquashFactor = 750f;
      float ySquashFactor = 1500f;
@@ -71,9 +78,9 @@ public class Ball : MonoBehaviour {
     Color pColor;
 
     AI aiAware;
-    public bool isBeingPursued;
+    [HideInInspector] public bool isBeingPursued;
 
-    public bool isCharging;
+    [HideInInspector] public bool isCharging;
 
     bool didWindFX;
 
@@ -770,6 +777,13 @@ public class Ball : MonoBehaviour {
 
     public void BallReleased()
     {
+        // Alex code to increase ball speed when thrown
+        // Debug.Log($" speed on release is {rigidbody.velocity}");
+        rigidbody.velocity = rigidbody.velocity * throwSpeedMultiplier;
+        // Debug.Log($" now the speed is {rigidbody.velocity}");
+        //
+
+
         Player playerScript = GetNearestPlayer();
 
         if (playerScript.team == 1)
