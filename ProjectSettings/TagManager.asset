@@ -13,6 +13,7 @@ TagManager:
   - Wall
   - Power Ball
   - ball
+  - PlayerCollider
   layers:
   - Default
   - TransparentFX
